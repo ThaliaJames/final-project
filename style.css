@@ -20,7 +20,6 @@ li {
   display: flex;
 }
 
-
 /* 
 
 NAV
@@ -31,8 +30,7 @@ NAV
 nav {
   height: 40px; 
   display: flex;
-  margin-top: 20px;
-  padding-left: 24px;
+  margin: 20px 0px 0 20px;
 }
 
 .nav__container {
@@ -51,11 +49,13 @@ nav {
   font-size: 1.25rem;
   margin-left: 10px;
   font-weight: 900;
+  color: navy;
 }
 
 .nav__links {
   display: flex;
   margin-left: auto;
+  align-items: center;
 }
 
 .nav__links a {
@@ -64,10 +64,21 @@ nav {
   font-size: 12px;
 }
 
-.nav__links .nav__link: nth-child(5) {
+.nav__link {
+  padding: 0 20px;
+  color: navy;
+}
+
+.nav__link--login {
   margin-left: 35px;
 }
 
-.nav__link {
-  padding: 0 20px;
+.nav__btn {
+  background-color: #6A1BFF;
+  border: 2px solid #6A1BFF;
+  color: white;
+  padding: 4px 20px;
+  border-radius: 20px;;
+  font-size: 12px;
+  font-weight: 600;
 }
