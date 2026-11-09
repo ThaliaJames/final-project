@@ -29,11 +29,9 @@ li {
   border-radius: 20px;
 }
 
-.btn:hover {
-  transform: scale(1.03);
-  background-color:#6b1bffca;
-  border: 2px solid #6b1bff1e;
-}
+ .btn:hover {
+  cursor: pointer;
+} 
 
 /* 
 
@@ -100,6 +98,12 @@ nav {
   font-size: 12px;
 }
 
+.nav__btn--bem:hover {
+  transform: scale(1.03);
+  background-color:#6b1bffca;
+  border: 2px solid #6b1bff1e;
+}
+
 /* 
 
 Header
@@ -133,6 +137,42 @@ header {
 
 .header__paragraph {
   padding: 3px 0;
+  margin-bottom: 20px;
 }
 
+.header__email {
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+}
 
+.header__email input {
+width: 100%;
+padding: 20px 140px 16px 20px; 
+border: 2px solid #ddd;
+border-radius: 50px;
+}
+
+.header__btn {
+  position: absolute;
+  right: 6px;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 12px 20px;
+  border-radius: 50px;
+}
+
+.header__btn:hover {
+  background-color:#6b1bffca;
+  border: 2px solid #6b1bff1e;
+}
+
+.special__paragraph {
+  font-size: 10px;
+  color: grey;
+}
+
+.paragraph__image {
+  filter: grayscale(100%);
+  height: auto;
+}
