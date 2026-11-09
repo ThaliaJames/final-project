@@ -124,6 +124,7 @@ header {
 .header__description {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   width: 40%;
 }
 
@@ -175,4 +176,52 @@ border-radius: 50px;
 .paragraph__image {
   filter: grayscale(100%);
   height: auto;
+  opacity: 0.4;
+  width: 100%;
+  height: auto;
+}
+
+.header__img--wrapper {
+  margin-top: 20px;
+  width: 60%;
+}
+
+/* 
+
+FEATURES
+
+*/
+
+.features {
+  padding-top: 4vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.container {
+  padding: 56px 0;
+}
+
+.row {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.section__title {
+  text-align: center;
+  margin-top: 10px;
+  color: rgb(69, 69, 92);
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.features__span {
+  font-size: 15px;
+  color: #6b1bffeb;
+  font-weight: 900;
+  letter-spacing: 2px;
 }
