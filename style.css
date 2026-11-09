@@ -353,6 +353,9 @@ Quality
 display: flex;
 justify-content: space-between;
 align-items: center;
+width: 100%;
+max-width: 1200px;
+margin: 0 auto; 
 }
 
 .quality__description {
@@ -373,7 +376,11 @@ align-items: center;
   font-size: 48px;
     font-weight: 900;
     color: rgb#243e63(36, 62, 99);
-    line-height: 1.5;
-    margin: 16px 0;
+    line-height: 1.2;
+    margin: 20px 0;
     letter-spacing: 0.025em;
+}
+
+.quality__img--wrapper {
+  width: 50%;
 }
